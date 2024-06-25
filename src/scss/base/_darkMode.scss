@@ -1,0 +1,92 @@
+.dark-mode {
+    background-color: darken($grisOscuro, 10);
+
+    p {
+        color: $blanco;
+    }
+
+    a,h1,h2,h3,h4 {
+        color: $gris;
+    }
+    blockquote{
+        color: $blanco;
+    }
+
+    .anuncio , 
+    .resumen-propiedad{
+        background-color: $grisOscuro;
+        border: 2rem solid $grisOscuro;
+        
+
+        .precio {
+            color: $verde;
+        }
+    }
+
+    .icono{
+        filter: invert(100%);
+    }
+
+    .formulario{
+        label,
+        legend,
+        p {
+            color: $gris;
+        }
+
+        input:not([type="submit"]),
+    textarea,
+    select{ 
+        background-color: $grisOscuro;
+        color: $blanco;
+        border: 1px solid $grisOscuro;
+
+    }
+    }
+    .tabla-container {
+        color: $blanco;
+    }
+
+    table.propiedades {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: $grisOscuro;
+        td {
+            background-color: $grisOscuro;
+            
+            color: $blanco;
+        }
+    }
+    
+    /* Estilo para el cuadro de búsqueda */
+ .dataTables_filter input {
+    font-weight: $bold !important;
+    margin-bottom: 2rem;
+    color: $black !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+}
+/* Estilo para el label asociado al cuadro de búsqueda */
+.dataTables_filter label {
+    font-weight: $bold !important;
+    margin-bottom: 2rem;
+    color: #ffffff !important; /* Color del texto del label */
+}
+/* Estilo para los botones de paginación de DataTables */
+.dataTables_paginate .paginate_button {
+    font-weight: $bold !important;
+    color: #ffffff !important; /* Color del texto de los botones de paginación */
+    background-color: #b5ddb5 !important; /* Color de fondo de los botones de paginación */
+    border: 1px solid #ccc !important; /* Borde de los botones de paginación */
+    border-radius: 1rem !important;
+    cursor: pointer !important;
+}
+
+/* Estilo para el texto de la información de DataTables (ejemplo: "Showing 1 to 10 of 20 entries") */
+.dataTables_info {
+    font-weight: $bold !important;
+    color: #ffffff !important; /* Color del texto de la información */
+}
+
+
+}

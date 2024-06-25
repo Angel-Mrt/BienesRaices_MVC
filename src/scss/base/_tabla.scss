@@ -1,0 +1,49 @@
+.tabla-container {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    overflow-x: auto; /* Habilita el desplazamiento horizontal */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    max-height: auto; /* Altura máxima del contenedor antes de que aparezca la barra de desplazamiento vertical */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* Borde alrededor de la tabla */
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borde alrededor de las celdas */
+}
+
+/* Estilo para los botones de paginación de DataTables */
+.dataTables_paginate .paginate_button {
+    font-weight: $bold !important;
+    color: #ffffff !important; /* Color del texto de los botones de paginación */
+    background-color: $blanco !important; /* Color de fondo de los botones de paginación */
+    border: 3px solid #ccc !important; /* Borde de los botones de paginación */
+    border-radius: 1rem !important;
+    cursor: pointer !important;
+}
+    /* Estilo para el cuadro de búsqueda */
+ .dataTables_filter input {
+    font-weight: $bold !important;
+    margin-bottom: 2rem;
+}
+/* Estilo para el label asociado al cuadro de búsqueda */
+.dataTables_filter label {
+    font-weight: $bold !important;
+    margin-bottom: 2rem;
+}
+/* Estilo para el texto de la información de DataTables (ejemplo: "Showing 1 to 10 of 20 entries") */
+.dataTables_info {
+    font-weight: $bold !important;
+}
+
+
+
+
+
